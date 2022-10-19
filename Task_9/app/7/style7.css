@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+	padding: 0;
+}
+.container{
+    height: 750px;
+    width: 1000px;
+    margin: 0 auto;
+}
+.text{
+    height: 500px;
+    width: 500px;
+    float: right;
+    margin-top: 100px;
+}
+.text h1{
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-right: 25px;
+}
+.text h2{
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+.text h3{
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-right: 25px;
+    margin-top: 30px;
+}
+.text p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+.answerField{
+    display: none;
+    margin-left: 100px;
+    margin-top: 290px;
+    height: 30px;
+    width: 150px;
+}
+.start{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    background-color:darkorange;
+    border-radius: 23px;
+    margin-left: 100px;
+    margin-top: 290px;
+}
+.start:hover{
+    cursor: pointer;
+}
+.field{
+    display: inline-grid
+}
+.answerSubmit{
+    display: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    background-color:chocolate;
+    border-radius: 23px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.answerSubmit:hover{
+    cursor: pointer;
+}

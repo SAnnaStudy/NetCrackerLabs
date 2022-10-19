@@ -1,0 +1,13 @@
+<h1>Список животных</h1>
+<div class = "list">
+  <div *ngFor="let animal of massiveOfAnimal">
+    <div class='listThing' (click)="info(animal)" *ngIf="this.needToHide == false || ((animal.kind !== Animal_kind.cat) && (this.needToHide))">{{ animal.name }}</div>
+  </div>
+</div>
+<div class = 'other'>
+  <h2>Подробней о каждом:</h2>
+  <div class="animal__info">
+    <p class="animal__info-details">{{this.info_details}}</p>
+  </div>
+</div>
+<button class='button' type="button" (click)="clickButton()">{{condition === 'hide' ? "Спрятать котиков" : "Показать котиков"}}</button>
